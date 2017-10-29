@@ -41,6 +41,7 @@ def update_lo_hi(stleval, r):
 
     return to_rec(intervals), var_polarities
 
+'''
 # Monotone threshold function
 def thres_func(stleval, r):
     r_updated, var_pol= thres_func(stleval, r)
@@ -48,3 +49,4 @@ def thres_func(stleval, r):
         updated_theta = theta*(var_pol) + theta*(~var_pol)*-1
         return stleval(updated_theta)
     return g
+'''
